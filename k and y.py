@@ -1,4 +1,9 @@
-N=[5,2]
-K=[1,2,3,4,5]
-i=sum(K)
-print(i)
+n=int(input())
+k=int(input())
+l=[]
+for i in range (n):
+  a=int(input())
+  l.append(a)
+print(l)
+c=sum(l[0:k])
+print(c)
